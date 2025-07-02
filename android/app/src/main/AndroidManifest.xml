@@ -22,5 +22,14 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+
+      <activity
+        android:name="io.invertase.notifee.NotifeeAlarmFullDisplayActivity"
+        android:launchMode="singleTask"
+        android:taskAffinity=""
+        android:excludeFromRecents="true"
+        android:exported="true"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      </activity>
     </application>
 </manifest>
